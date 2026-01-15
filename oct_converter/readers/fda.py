@@ -278,15 +278,15 @@ class FDA(object):
 
         layer = {
             "MULTILAYERS_1": "ILM",
-            "MULTILAYERS_2": "RNFL_GCL",
-            "MULTILAYERS_3": "GCL_IPL",
-            "MULTILAYERS_4": "IPL_INL",
-            "MULTILAYERS_5": "MZ_EZ",
+#            "MULTILAYERS_2": "RNFL_GCL",
+#            "MULTILAYERS_3": "GCL_IPL",
+#            "MULTILAYERS_4": "IPL_INL",
+#            "MULTILAYERS_5": "MZ_EZ",
             "MULTILAYERS_6": "IZ_RPE",
             "MULTILAYERS_7": "BM",
-            "MULTILAYERS_8": "INL_OPL",
-            "MULTILAYERS_9": "ELM",
-            "MULTILAYERS_10": "CSI",
+#            "MULTILAYERS_8": "INL_OPL",
+#            "MULTILAYERS_9": "ELM",
+#            "MULTILAYERS_10": "CSI",
         }
 
         seg_dict = {}
