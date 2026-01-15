@@ -113,7 +113,7 @@ class OCTVolumeWithMetaData(object):
                         and v[slice_id] is not None
                         and not np.isnan(v[slice_id]).all()
                     ):
-                        plt.plot(v[slice_id], color="y")
+                        plt.plot(v[slice_id], color="b")
             plt.axis("off")
             plt.title("{}".format(slice_id))
         plt.suptitle("OCT volume with {} slices.".format(self.num_slices))
