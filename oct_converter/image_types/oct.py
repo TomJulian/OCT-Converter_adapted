@@ -11,7 +11,6 @@ from PIL import Image
 import matplotlib.cm as cm
 import pandas as pd
 import json
-from oct_converter.readers import FDA
 import cv2
 from scipy.interpolate import griddata
 from scipy.ndimage import convolve
