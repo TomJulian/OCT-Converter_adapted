@@ -21,12 +21,14 @@ dependencies = [
     "construct",
     "imageio",
     "natsort",
-    "numpy",
+    "numpy<2",
     "opencv-python",
     "pydicom>3",
     "matplotlib",
     "imageio-ffmpeg",
     "h5py",
+    "PyWavelets",
+    "scikit-learn",
 ]
 requires-python = ">=3.7"
 
