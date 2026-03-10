@@ -15,7 +15,6 @@ import cv2
 from scipy.interpolate import griddata
 from scipy.ndimage import convolve
 import os
-from concurrent.futures import ProcessPoolExecutor, as_completed
 from scipy.signal import savgol_filter
 from scipy.ndimage import gaussian_filter1d
 import scipy.stats
