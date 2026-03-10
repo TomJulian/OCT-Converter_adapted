@@ -486,7 +486,7 @@ class OCTVolumeWithMetaData(object):
         SM = f'{save_dir}/results/thickness_wavlets/{save_prefix}foveal_thickness_map_wavelet.png'
         features = energy_quantification(t_u16, SM)
         kurtosis = features[1][3]
-        if kurtosis > 4.595535:
+        if kurtosis > 2.5:
             raise ValueError(f"Excess Kurtosis, value of: {kurtosis}. Thickness map not plotted.")
         else:
             cv2.imwrite(
