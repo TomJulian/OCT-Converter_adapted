@@ -36,7 +36,7 @@ requires-python = ">=3.7"
 Homepage = "https://github.com/TomJulian/OCT-Converter_adapted.git"
 
 [tool.setuptools.packages.find]
-where = [""]
+where = ["."]
 include = ["oct_converter*","examples"]
 exclude= ["my_example_volumes*"]
 
