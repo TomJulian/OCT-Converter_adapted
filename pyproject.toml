@@ -20,7 +20,7 @@ dependencies = [
     "imageio",
     "natsort",
     "numpy<2",
-    "opencv-python-headless",
+    "opencv-python",
     "pydicom>3",
     "matplotlib",
     "imageio-ffmpeg",
